@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+<head>
+
+  <meta charset="UTF-8">
+  <title>WeatherApp</title>
+
+  <!-- Bootstrap CDN -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+<!-- Navigator Bar -->
+  <div class="container-fluid">
+      <div class="row">
+          <div class="col-md-12">
+              <ul class="nav nav-pills">
+                  <li class="nav-item">
+                      <a class="nav-link active" href="#">Latitude</a>
+                  </li>
+                  <li class="nav-item dropdown ml-md-auto">
+                      <a class="nav-link dropdown-toggle" href="http://example.com" id="navbarDropdownMenuLink" data-toggle="dropdown">Plots</a>
+                      <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdownMenuLink">
+                          <a class="dropdown-item" href="#">Max Temperature</a> <a class="dropdown-item" href="#">Humidity</a> <a class="dropdown-item" href="#">Cloudiness</a><a class="dropdown-item" href="#">Wind Speed</a>
+                      </div>
+                  </li>
+                  <li class="nav-item">
+                      <a class="nav-link" href="#">Comparison</a>
+                  </li>
+                  <li class="nav-item">
+                      <a class="nav-link" href="#">Data</a>
+                  </li>
+              </ul>
+          </div>
+      </div>
+    </div>  
+    <!-- Row 1 -->
+      <div class="row">
+        <div class="col-md-6">
+          <h1>
+            Summary: Latitude vs. X
+          </h1>
+          <hr>
+          <p>
+            The purpose of the WeatherApp project was to compare various weather conditions
+            (i.e. temperature, humidity, cloudiness, and wind speed) between the northern and southern 
+            hemispheres to determine if they were different. To do this, a data set of 500 cities was randomly
+            generated using Longitude and Latitude coordinates. Weather data was then pulled from OpenWeatherMap
+            API for analysis.
+            <section id="figure">
+              <img id="bio-image" src="https://placehold.it/200x200" alt="Your Name">
+            </section>
+          </p>
+          <p>
+            After compiling the data set, I used Matplotlib to generate scatterplots comparing the temperature, humidity
+            cloudiness, and wind speed for cities in each hemisphere. The source code and visualizations can
+            be found on this site.
+          </p>
+        </div>
+        <div class="col-md-4">
+          <h2>
+          Visualizations
+          </h2>
+          <hr>
+          <img id="bio-image" src="https://placehold.it/200x200" alt="Your Name">
+          <img id="bio-image" src="https://placehold.it/200x200" alt="Your Name">
+          <img id="bio-image" src="https://placehold.it/200x200" alt="Your Name">
+          <img id="bio-image" src="https://placehold.it/200x200" alt="Your Name">
+        </div>
+      </div>
+    </div>
+</div>
+</div>
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+
+</body>
+
+</html>
