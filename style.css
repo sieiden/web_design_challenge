@@ -22,7 +22,7 @@ a{
 }
 .col-md-6{
     background: #f7f9fb;
-    margin-top: 60px;
+    margin-top: 40px;
     margin-bottom: 10px;
     margin-right: 10px;
     margin-left: 100px;
@@ -30,7 +30,7 @@ a{
 
 .col-md-4{
     background: #f7f9fb;
-    margin-top: 60px;
+    margin-top: 40px;
     margin-bottom: 10px;
     margin-right: 10px;
     margin-left: 30px;
@@ -56,7 +56,12 @@ hr{
 }
 p{
     color:black;
+    margin-left:20px;
 }
-#figure {
-    position: relative;
+#title {
+    position: absolute;
+    font-size: 15px;
+    top: 130px;
+    left: 110px;
   }
+
