@@ -12,7 +12,7 @@ body {
     padding:10px;
 }
 
-navbar-brand a:hover{
+.navbar-brand a:hover{
     color:#f7f9fb;
 }
 
