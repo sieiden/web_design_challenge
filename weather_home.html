@@ -12,7 +12,7 @@
     <div class="row">
         <div class="col-md-12">
             <nav class="navbar navbar-expand-lg" style= background-color:#31708E>
-                <a class="navbar-brand" href="#">WeatherApp</a>
+                <a class="navbar-brand" href="https://sieiden.github.io/weather_home">WeatherApp</a>
                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
                   <span class="navbar-toggler-icon"></span>
                 </button>
@@ -24,17 +24,17 @@
                         </a>
                         <!-- <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdownMenuLink"></div> -->
                         <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                          <a class="dropdown-item" href="#">Max Temperature</a>
-                          <a class="dropdown-item" href="#">Humidity</a>
-                          <a class="dropdown-item" href="#">Cloudiness</a>
-                          <a class="dropdown-item" href="#">Wind Speed</a>
+                          <a class="dropdown-item" href="https://sieiden.github.io/max_temp">Max Temperature</a>
+                          <a class="dropdown-item" href="https://sieiden.github.io/humidity">Humidity</a>
+                          <a class="dropdown-item" href="https://sieiden.github.io/cloudiness">Cloudiness</a>
+                          <a class="dropdown-item" href="https://sieiden.github.io/wind_speed">Wind Speed</a>
                         </div>
                       </li>
                     <li class="nav-item">
-                      <a class="nav-link" href="#">Comparison</a>
+                      <a class="nav-link" href="https://sieiden.github.io/comparison">Comparison</a>
                     </li>
                     <li class="nav-item">
-                      <a class="nav-link" href="#">Data</a>
+                      <a class="nav-link" href="https://sieiden.github.io/weather_data">Data</a>
                     </li>
                   </ul>
                 </div>
@@ -49,7 +49,7 @@
           <hr>
           <section id="main-summary">
             <section id="figure">
-              <img id="temp-image" src="../WebVisualizations/visualizations/Figure1.png" alt="Max Temp" ALIGN="left">
+              <img id="temp-image" src="../WebVisualizations/visualizations/Figure1.png" class= "img-thumbnail float-left" alt="Max Temp">
             </section>
             <p>
             The purpose of the WeatherApp project was to compare various weather conditions
@@ -69,21 +69,20 @@
           Visualizations
           </h2>
           <hr>
-          <div class="polaroid">
-            <img id="max-temp-image" src="../WebVisualizations/visualizations/Figure1.png" alt="Max Temp" style="width:100%">
+          <a href="https://sieiden.github.io/max_temp">
+            <img src="../WebVisualizations/visualizations/Figure1.png" class="img-thumbnail float-left" alt="Max Temp" style="width:40%">
+          </a>
+          <a href="https://sieiden.github.io/humidity">
+            <img src="../WebVisualizations/visualizations/Figure2.png" class="img-thumbnail float-right" alt="Humidity" style="width:40%">
+          </a>
+          <a href="https://sieiden.github.io/cloudiness">
+            <img src="../WebVisualizations/visualizations/Figure3.png" class="img-thumbnail float-left" alt="Cloudiness" style="width:40%">
+          </a>
+          <a href="https://sieiden.github.io/wind_speed">
+            <img src="../WebVisualizations/visualizations/Figure4.png" class="img-thumbnail float-right" alt="Wind Speed" style="width:40%">
+          </a>
           </div>
-          <div class="polaroid">
-            <img id="humidity-image" src="../WebVisualizations/visualizations/Figure2.png" alt="Max Temp" style="width:100%"> 
-          </div>
-          <div class="polaroid">
-            <img id="cloudiness-image" src="../WebVisualizations/visualizations/Figure3.png" alt="Max Temp" style="width:100%">
-          </div>
-          <div class="polaroid">
-            <img id="wind-image" src="../WebVisualizations/visualizations/Figure4.png" alt="Max Temp" style="width:100%">
-          </div>
-        </div>
       </div>
-    </div>
 </div>
 
 <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
