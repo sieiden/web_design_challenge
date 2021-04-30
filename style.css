@@ -1,8 +1,10 @@
+/* Webpage Body Styling All Pages*/
 body {
     background: #8fc1e3;
     font-family: 'Courier New', Courier, monospace;
   }
 
+  /* Nav Bar Styling All Pages */
 .navbar.navbar-expand-lg{
     margin:25px;
 }
@@ -37,6 +39,8 @@ body {
 .navbar-toggler-icon {
     stroke:#f7f9fb stroke-width='2' stroke-linecap='round' stroke-miterlimit='10';
 }
+
+/* Home Page Styling */
 
 a{
     color:#f7f9fb;
@@ -92,4 +96,8 @@ p{
     margin-right: 30px;
     margin-bottom: 10px;
     overflow: hidden;
+}
+
+.table.table-hover {
+    margin-left: 40px;
 }
