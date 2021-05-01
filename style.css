@@ -110,3 +110,8 @@ thead {
 tbody{
     background-color:#f7f9fb;
 }
+
+/* Comparison page */
+#comparison{
+    margin-bottom: 60px;
+}
