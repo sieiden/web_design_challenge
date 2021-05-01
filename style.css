@@ -6,7 +6,9 @@ body {
 
   /* Nav Bar Styling All Pages */
 .navbar.navbar-expand-lg{
-    margin:25px;
+    margin-right:25px;
+    margin-top: 25px;
+    margin-bottom: 40px;
 }
 
 .navbar-brand{
@@ -99,7 +101,6 @@ p{
 }
 .col-md-10{
     background:#f7f9fb;
-    margin-left:150px;
 }
 thead {
     background-color:#687864;
@@ -108,7 +109,4 @@ thead {
 
 tbody{
     background-color:#f7f9fb;
-}
-.table.table-hover {
-    margin-left: 1px;
 }
