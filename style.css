@@ -97,7 +97,18 @@ p{
     margin-bottom: 10px;
     overflow: hidden;
 }
+.col-md-10{
+    background:#f7f9fb;
+    margin-left:150px;
+}
+thead {
+    background-color:#687864;
+    color: #f7f9fb;
+}
 
+tbody{
+    background-color:#f7f9fb;
+}
 .table.table-hover {
-    margin-left: 125px;
+    margin-left: 1px;
 }
