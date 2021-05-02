@@ -104,3 +104,20 @@ tbody{
 #comparison{
     margin-bottom: 60px;
 }
+.overlay {
+    position: absolute; 
+    bottom: 0; 
+    background: pink;
+    background: pink; /* Black see-through */
+    color: #f1f1f1; 
+    width: 100%;
+    transition: .5s ease;
+    opacity:0;
+    color: white;
+    font-size: 20px;
+    padding: 20px;
+    text-align: center;
+  }
+.container:hover .overlay {
+    opacity: 1;
+  }
